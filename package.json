@@ -1,0 +1,20 @@
+{
+  "name": "google-news",
+  "version": "1.0.0",
+  "description": "get Google News headers",
+  "main": "index.js",
+  "author": "Sergei Klinov",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

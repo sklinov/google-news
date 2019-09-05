@@ -21,7 +21,6 @@ var googleNews = function() {
             console.log(err)
           } 
     }) 
-    
   }
   
-  module.exports = googleNews;
+module.exports = googleNews;

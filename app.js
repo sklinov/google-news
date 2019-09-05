@@ -8,7 +8,6 @@ app.get('/', (req, res) => {
     .then((news) => res.send(news))    
 })
 
-// Show error message 
 const error = 'Please check your route'
 app.get('*', (req, res) => res.send(error))
 

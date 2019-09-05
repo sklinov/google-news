@@ -10,7 +10,6 @@ describe('Test the request', () => {
         })
     });
     test('It should response to wrong route', () => {
-        //const errorMessage = 'Please check your route'
         return request(app).get("/anyotherroute").then(response => {
             expect(response.text).toBe(error)
         })

@@ -12,7 +12,7 @@ var googleNews = function() {
             .then((res) => res.text())
             .then((xml) => {
               parseString(xml, function (err, result) {
-                  const news = result
+                  var news = result
                   const titles = getTitles(news)
                   resolve(titles)
               });

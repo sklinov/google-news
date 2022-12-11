@@ -11,7 +11,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "node-fetch": "^2.6.0",
     "xml2js": "^0.4.22"
   },
